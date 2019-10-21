@@ -12,5 +12,10 @@ class String
     self.end_with?('!')
   end
   
+  def count_sentences
+    self.split('.', '?', '!')
+  end
+  
 end
 
+puts "Apple. This is a sentence? This one too!".count_sentences
