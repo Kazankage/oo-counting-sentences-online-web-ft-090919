@@ -18,4 +18,4 @@ class String
   
 end
 
-puts "Apple. This is a sentence? This one too!".count_sentences
+print "Apple. This is a sentence? This one too!".count_sentences
