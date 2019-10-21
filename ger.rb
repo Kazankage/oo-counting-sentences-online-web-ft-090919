@@ -13,7 +13,7 @@ class String
   end
   
   def count_sentences
-    print self.split(/[?!.]/).each {|str| str.strip}
+    print self.split(/[?!.]/).map {|str| str.strip}
     puts
     puts self.split(/[?!.]/).size
   end
