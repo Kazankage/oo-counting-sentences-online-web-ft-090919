@@ -13,7 +13,7 @@ class String
   end
   
   def count_sentences
-    self.split(%r{\s*})
+    self.split(%r{})
   end
   
 end
