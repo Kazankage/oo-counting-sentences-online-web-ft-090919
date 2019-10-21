@@ -13,9 +13,10 @@ class String
   end
   
   def count_sentences
-    self.split(/[?!.]/)
+    print self.split(/[?!.]/)
+    puts self.split(/[?!.]/).size
   end
   
 end
 
-print "Apple. This is a sentence? This one too!".count_sentences
+"Apple. This is a sentence? This one too!".count_sentences
