@@ -13,7 +13,8 @@ class String
   end
   
   def count_sentences
-    print self.split(/[?!.]/).map {|str| str.strip.reject {|s| s.empty?}}
+    #print self.split(/[?!.]/).map {|str| str.strip.reject {|s| s.empty?}}
+    print self.split(/[?!.]/).reject {|str| str.empty?}
     puts
     puts self.split(/[?!.]/).size
   end
