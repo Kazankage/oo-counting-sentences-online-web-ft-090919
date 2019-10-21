@@ -21,4 +21,4 @@ class String
   
 end
 
-"Apple. This is a sentence? This one too! ... About now?".count_sentences
+"Apple. This is a sentence? This one too! ... About now? What about now".count_sentences
