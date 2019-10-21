@@ -17,7 +17,6 @@ class String
     print self.split(/[?!.]/).reject {|str| str.strip.empty?}
     puts
     puts self.split(/[?!.]/).reject {|str| str.strip.empty?}.size
-    puts self.split(/[?!.]/).size
   end
   
 end
