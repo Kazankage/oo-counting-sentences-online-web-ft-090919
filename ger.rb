@@ -14,6 +14,7 @@ class String
   
   def count_sentences
     print self.split(/[?!.]/)
+    puts
     puts self.split(/[?!.]/).size
   end
   
