@@ -8,3 +8,5 @@ require_relative '../lib/count_sentences'
 RSpec.configure do |config|
   # config here
 end
+
+require_relative'../ger'
